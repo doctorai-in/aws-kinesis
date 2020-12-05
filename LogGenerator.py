@@ -1,11 +1,4 @@
-#!/usr/bin/python
 
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb  4 12:01:21 2019
-
-@author: Frank
-"""
 
 import csv
 import time
