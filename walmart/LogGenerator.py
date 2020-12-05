@@ -4,7 +4,7 @@ import csv
 import time
 import sys
 
-sourceData = "OnlineRetail.csv"
+sourceData = "train.csv"
 placeholder = "LastLine.txt"
 
 def GetLineCount():
