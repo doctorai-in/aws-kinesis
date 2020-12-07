@@ -11,7 +11,9 @@ cd ~
 sudo ./LogGenerator.py 500000
 cd /var/log/cadabra
 tail -f /var/log/aws-kinesis-agent/aws-kinesis-agent.log
-
+sudo cp -rf agent.json  /etc/aws-kinesis
+sudo service aws-kinesis-agent restart
+sudo rm -rf /var/log/cadabra
 # firehose endpoint : firehose.us-east-1.amazonaws.com
 
 # "filePattern": "/var/log/cadabra/*log"
